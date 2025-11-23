@@ -221,7 +221,9 @@ module.exports = {
     signin,
     getProfile,
     updateProfileImage,
-    getProfileImage
+    getProfileImage,
+    signupLimiter: limiter
+
 };
 
 
