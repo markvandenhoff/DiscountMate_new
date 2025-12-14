@@ -1,0 +1,6 @@
+SHELL=/bin/sh
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+
+# Run weekly Sunday 03:00
+0 3 * * SUN root /usr/bin/python3 /app/script.py >> /var/log/cron.log 2>&1
+
